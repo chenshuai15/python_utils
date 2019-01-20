@@ -3,7 +3,7 @@ import logging
 
 import requests
 
-logger = logging.getLogger('mylogger')
+logger = logging.getLogger('stockLogger')
 logger.setLevel(logging.DEBUG)
 
 f_handler = logging.FileHandler('stock.log')
