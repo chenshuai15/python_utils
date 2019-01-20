@@ -9,7 +9,6 @@ logger.setLevel(logging.DEBUG)
 f_handler = logging.FileHandler('stock.log')
 f_handler.setLevel(logging.INFO)
 f_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(filename)s[:%(lineno)d] - %(message)s"))
-
 s_handler = logging.StreamHandler()
 s_handler.setLevel(logging.DEBUG)
 s_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(filename)s[:%(lineno)d] - %(message)s"))
